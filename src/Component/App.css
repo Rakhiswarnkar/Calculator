@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+body, html, #root{
+    height: 100%;
+}
+
+.calcBorder{
+    border: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+    border-radius: 18px;
+}
+
+input{
+    border: white;
+    height: 75px;
+    width: 400px;
+    font-size: 80px;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+.B{
+    border: white;
+    border-radius: 9px;
+    width: 101px;
+    height: 40px;
+    font-size: 21px;
+    background: blanchedalmond;
+}
+
